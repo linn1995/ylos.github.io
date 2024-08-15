@@ -1,0 +1,24 @@
+.contenedor{
+max-width: 50%;
+margin: 0 auto;   
+
+}
+.borde{
+    border-bottom: solid 4px;
+    color: aqua;
+}
+
+.imagenespelis{
+    display: flex;
+    gap: 20px;
+}
+.perfil {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+}
+
+.perfil img {
+    width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+    border-radius: 50%; /* Da un borde redondeado a la imagen (opcional) */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}

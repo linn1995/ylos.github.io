@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: linear-gradient(rgba(242,237,242,0.7),rgba(242,237,242,0.7)),url(cerezos.jpg);
+    background-position: center bottom;
+    background-repeat: repeat;
+    background-size: cover;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color:#56aeb7;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 28px;
+    color:#56aeb7;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #5694b7;
+}
+
+#menu {
+    display: none;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header{
+    text-align: center;
+    
+}
+
+.inicio-content {
+    color:#56aeb7;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.guia-content {
+    color:#56aeb7;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text-guia-content{
+    font-size: 17px;
+    text-align: center;
+}
+.fecha{
+    color:#56aeb7;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: right;
+}
